@@ -1,0 +1,213 @@
+html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(food.jpg);
+  min-height: 90%;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar-->
+<div class="w3-top w3-hide-small">
+    <div class="w3-bar w3-xlarge w3-white w3-opacity w3-hover-opacity-off" id="myNavbar">
+      <a href="#" class="w3-bar-item w3-button">HOME</a>
+      <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#myMap" class="w3-bar-item w3-button">Order</a>
+    </div>
+  </div>
+    
+  <!-- Header with image -->
+  <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-bottomleft w3-padding">
+      <span class="w3-tag w3-xlarge">Organic Juice & Smoothie Bar</span>
+    </div>
+    <div class="w3-display-middle w3-center">
+      <span class="w3-text-black w3-hide-small" style="font-size:100px">the<br>JUICE LAUNDRY</span>
+      <span class="w3-text-black w3-hide-large w3-hide-medium" style="font-size:60px"><b>the<br>JUICE LAUNDRY</b></span>
+      <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let me see the menu</a></p>
+    </div>
+  </header>
+  <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+    <div class="w3-content">
+  
+      <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
+      <div class="w3-row w3-center w3-border w3-border-dark-grey">
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Smoothies');" id="myLink">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Superfood Smoothies</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Boosters');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Boosters</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Bowls');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Acai Bowls & More</div>
+        </a>
+      </div>
+  
+  <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+    <div class="w3-content">
+    
+      <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
+      
+      <div id="Smoothies" class="w3-container menu w3-padding-32 w3-white">
+        <h1><b>Coco Verde</b></h1>
+        <p class="w3-text-grey">kale, spinach, mango, banana, dates, coconut oil, coconut water</p>
+        <hr>
+        
+        <h1><b>Bradley's CB&J</b></h1>
+        <p class="w3-text-grey">strawberry, banana, cashew butter, dates, dragonfruit, house cashew milk</p>
+        <hr>
+        
+        <h1><b>Superman</b></h1>
+        <p class="w3-text-grey">blueberries, goji berries, banana, dates, dragonfruit, house almond milk</p>
+        <hr>
+        
+        <h1><b>The Blaze</b></h1>
+        <p class="w3-text-grey">strawberry, mango, banana, dates, ginger, cayenne, house cashew milk</p>
+        <hr>
+        
+        <h1><b>Tropic Energy</b></h1>
+        <p class="w3-text-grey">mango, banana, dates, dragonfruit, brewed guayusa</p>
+        <hr>
+        
+        <h1><b>Basil Bomb</b></h1>
+        <p class="w3-text-grey">strawberry, banana, basil, dates, house almond milk</p>
+        <hr>
+        
+        <h1><b>Blended Brew</b></h1>
+        <p class="w3-text-grey">banana, cashew butter, cold brew coffee, cacao (optional)</p>
+        <hr>
+        
+        <h1><b>Cacao Monster</b></h1>
+        <p class="w3-text-grey">banana, cashew butter, cacao, house almond milk</p>
+        <hr>
+        
+        <h1><b>Kid Dynamite</b></h1>
+        <p class="w3-text-grey">banana, dragonfruit, house cashew milk</p>
+      </div>
+  
+      <div id="Boosters" class="w3-container menu w3-padding-32 w3-white">
+        <h1><b>Cacao</b></h1>
+        <hr>
+        
+        <h1><b>Aloe Vera</b></h1>
+        <hr>
+        
+        <h1><b>Chia Seeds</b></h1>
+        <hr>
+        
+        <h1><b>Hemp Protein</b></h1>
+        <hr>
+        
+        <h1><b>Spinach</b></h1>
+        <hr>
+        
+        <h1><b>Kale</b></h1>
+        <hr>
+        
+        <h1><b>Matcha</b></h1>
+        <hr>
+        
+        <h1><b>Goji Berries</b></h1>
+        <hr>
+        
+        <h1><b>Vegan Probiotic</b></h1>
+        <hr>
+        
+        <h1><b>Wheatgrass</b></h1>
+        <hr>
+        
+        <h1><b>Maca</b></h1>
+      </div>
+  
+      <div id="Bowls" class="w3-container menu w3-padding-32 w3-white">
+        <h1><b>Acai Smoothie Bowl</b></h1>
+        <p class="w3-text-grey">Pick any smoothie to use as the base for your bowl. Smoothie bowls come blended with acai and topped with fruit and our house granola</p>
+        <hr>
+        
+        <h1><b>Gluten-Free Oats Bowl</b></h1>
+        <p class="w3-text-grey">Oats soaked in our house cashew milk, served cold, choice of 2 toppings included</p>
+        <hr>
+        
+        <h1><b>Quinoa Bowl</b></h1>
+        <p class="w3-text-grey">Quinoa cooked in our house cashew milk, served cold, choice of 2 toppings included</p>
+        <hr>
+        
+        <h1><b>Combination Bowl</b></h1>
+        <p class="w3-text-grey">Combination of oats and quinoa, served cold, choice
+  
+
+
+  <!-- About Container -->
+<div class="w3-container w3-padding-64 w3-black w3-grayscale w3-xlarge" id="about">
+    <div class="w3-content">
+      <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+      <p>It's strange how we make a habit of regularly washing our clothes, yet we hardly worry about something far more important. Our bodies</p>
+      <p><strong>It's time to start doing your laundry.</strong>  The important kind.</p>
+      <p>Our mission is to inspire healthy, organic, powerful change.</p>
+      <img src="logo-small.png" style="width:25%; display: block; margin-left: auto; margin-right: auto;" class="w3-margin-top w3-margin-bottom">
+      <h1><b>Opening Hours</b></h1>
+      
+      <div class="w3-row">
+        <div class="w3-col s6">
+          <p>Monday - Friday 9:00 - 3:00</p>
+          <p>Saturday & Sunday Clossed </p>
+        </div>
+      </div>
+
+            
+
+<!-- Order -->
+<div class="w3-container w3-padding-64 w3-black w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Place Your Order</h1>
+    <p>To order, fill out the information below and submit your choices. </p>
+    <form action="/submit_order.php" method="post">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Contact Number" required name="Phone"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Delivery Address" required name="Address"></p>
+      <p><textarea class="w3-input w3-padding-16 w3-border" placeholder="Your Order Details" required name="OrderDetails"></textarea></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Any Special Instructions?" name="SpecialInstructions"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">PLACE ORDER</button></p>
+    </form>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+    <p>Powered by Organic  Fruits and Vegtables</p>
+  </footer>
+
+  <script>
+  // Tabbed Menu
+  function openMenu(evt, menuName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("menu");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+       tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.firstElementChild.className += " w3-red";
+  }
+  document.getElementById("myLink").click();
+  </script>
+  ​
+  </body>
+  </html>
+  ​
